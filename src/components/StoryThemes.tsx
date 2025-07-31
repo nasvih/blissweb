@@ -8,64 +8,64 @@ const StoryThemes: React.FC = () => {
       description: 'Turning points, resilience, breakthroughs',
       stories: '194 stories',
       icon: Lightbulb,
-       'from-purple-500 to-blue-500',
-      bg 'from-purple-100 to-blue-100'
+      color: 'from-purple-500 to-blue-500',
+      bgColor: 'from-purple-100 to-blue-100'
     },
     {
       title: 'Love',
       description: 'Romance, heartbreak, connections',
       stories: '161 stories',
       icon: Heart,
-       'from-pink-500 to-red-500',
-      bg 'from-pink-100 to-red-100'
+      color: 'from-pink-500 to-red-500',
+      bgColor: 'from-pink-100 to-red-100'
     },
     {
       title: 'Failure',
       description: 'Lessons learned, regrets, growth',
       stories: '59 stories',
       icon: X,
-       'from-orange-500 to-red-500',
-      bg 'from-orange-100 to-red-100'
+      color: 'from-orange-500 to-red-500',
+      bgColor: 'from-orange-100 to-red-100'
     },
     {
       title: 'Success',
       description: 'Personal wins, achievements, milestones',
       stories: '176 stories',
       icon: Trophy,
-       'from-green-500 to-emerald-500',
-      bg 'from-green-100 to-emerald-100'
+      color: 'from-green-500 to-emerald-500',
+      bgColor: 'from-green-100 to-emerald-100'
     },
     {
       title: 'Confessions',
       description: 'Secrets, hidden truths, revelations',
       stories: '143 stories',
       icon: Users,
-       'from-purple-500 to-indigo-500',
-      bg 'from-purple-100 to-indigo-100'
+      color: 'from-purple-500 to-indigo-500',
+      bgColor: 'from-purple-100 to-indigo-100'
     },
     {
       title: 'Help Me',
       description: 'Support requests, advice needed',
       stories: '86 stories',
       icon: HelpCircle,
-       'from-cyan-500 to-blue-500',
-      bg 'from-cyan-100 to-blue-100'
+      color: 'from-cyan-500 to-blue-500',
+      bgColor: 'from-cyan-100 to-blue-100'
     },
     {
       title: 'Random Reflections',
       description: 'Life thoughts, philosophy, musings',
       stories: '325 stories',
       icon: RotateCcw,
-       'from-gray-500 to-slate-500',
-      bg 'from-gray-100 to-slate-100'
+      color: 'from-gray-500 to-slate-500',
+      bgColor: 'from-gray-100 to-slate-100'
     },
     {
       title: 'More Themes',
       description: 'Explore all categories',
       stories: 'Browse all',
       icon: Plus,
-       'from-purple-500 to-pink-500',
-      bg 'from-purple-100 to-pink-100'
+      color: 'from-purple-500 to-pink-500',
+      bgColor: 'from-purple-100 to-pink-100'
     }
   ];
 

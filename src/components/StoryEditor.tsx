@@ -38,13 +38,13 @@ const StoryEditor: React.FC<StoryEditorProps> = ({ story, onPublish, onCancel })
   }, [story]);
 
   const categories = [
-    { name: 'Inspiration', icon: Lightbulb, color: 'from-purple-500 to-blue-500' },
-    { name: 'Love', icon: Heart, color: 'from-pink-500 to-red-500' },
-    { name: 'Failure', icon: X, color: 'from-orange-500 to-red-500' },
-    { name: 'Success', icon: Trophy, color: 'from-green-500 to-emerald-500' },
-    { name: 'Confessions', icon: Users, color: 'from-purple-500 to-indigo-500' },
-    { name: 'Help Me', icon: HelpCircle, color: 'from-cyan-500 to-blue-500' },
-    { name: 'Random Reflections', icon: RotateCcw, color: 'from-gray-500 to-slate-500' }
+    { name: 'Inspiration', icon: Lightbulb, color: 'bg-indigo-500' },
+    { name: 'Love', icon: Heart, color: 'bg-rose-500' },
+    { name: 'Failure', icon: X, color: 'bg-orange-500' },
+    { name: 'Success', icon: Trophy, color: 'bg-emerald-600' },
+    { name: 'Confessions', icon: Users, color: 'bg-violet-600' },
+    { name: 'Help Me', icon: HelpCircle, color: 'bg-sky-500' },
+    { name: 'Random Reflections', icon: RotateCcw, color: 'bg-slate-500' }
   ];
 
   const sampleImages = [

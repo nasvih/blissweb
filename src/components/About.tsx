@@ -8,7 +8,7 @@ const About: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            About Bliss
+            About Blissful
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             A safe digital haven where individuals share personal stories anonymously,
@@ -22,7 +22,7 @@ const About: React.FC = () => {
             Our Mission
           </h3>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            In today's noisy and often judgmental digital world, Bliss serves as a quiet, judgment-free
+            In today's noisy and often judgmental digital world, Blissful serves as a quiet, judgment-free
             platform that puts empathy and storytelling at the center.
           </p>
         </div>
@@ -72,7 +72,7 @@ const About: React.FC = () => {
               Building Bridges Through Stories
             </h3>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Every story shared on Bliss creates ripples of understanding and connection. 
+              Every story shared on Blissful creates ripples of understanding and connection. 
               Together, we're building a more empathetic world, one authentic story at a time.
             </p>
           </div>

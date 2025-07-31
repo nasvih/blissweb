@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
               <div className="bg-gradient-to-r from-purple-600 to-pink-500 p-2 rounded-lg">
                 <Heart className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-bold">Bliss</span>
+              <span className="text-2xl font-bold">Blissful</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               A safe space for authentic storytelling. Share your truth, find your tribe, heal together.
@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-800 pt-8 text-center">
           <div className="text-gray-400 text-sm">
-            © {currentYear} Bliss. All rights reserved. Made with love for storytellers everywhere.
+            © {currentYear} Blissful. All rights reserved. Made with love for storytellers everywhere.
           </div>
         </div>
       </div>

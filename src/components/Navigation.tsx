@@ -37,7 +37,7 @@ const Navigation: React.FC<NavigationProps> = ({ currentPage, onNavigate }) => {
               <Heart className="h-6 w-6 text-white" />
             </div>
             <span className="text-2xl font-bold text-gray-900">
-              Bliss
+              Blissful
             </span>
           </div>
 

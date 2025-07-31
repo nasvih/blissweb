@@ -42,7 +42,7 @@ const HowItWorks: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            How Bliss Works
+            How Blissful Works
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Simple, safe, and meaningful storytelling

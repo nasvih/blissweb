@@ -8,24 +8,24 @@ const HowItWorks: React.FC = () => {
       title: 'Write Your Story',
       description: 'Choose a theme and share your authentic experience. No judgment, no profiles needed - just your truth.',
       icon: Edit3,
-      color: 'from-purple-500 to-purple-600',
-      bgColor: 'from-purple-100 to-purple-200'
+      color: 'bg-purple-600',
+      bgColor: 'bg-purple-200'
     },
     {
       number: '2',
       title: 'Connect Safely',
       description: 'Our community reads, relates, and responds with empathy. Every interaction is moderated for safety.',
       icon: Heart,
-      color: 'from-pink-500 to-red-500',
-      bgColor: 'from-pink-100 to-red-200'
+      color: 'bg-rose-500',
+      bgColor: 'bg-rose-200'
     },
     {
       number: '3',
       title: 'Find Support',
       description: 'Discover you\'re not alone. Give and receive support through shared experiences and understanding.',
       icon: Users,
-      color: 'from-green-500 to-emerald-500',
-      bgColor: 'from-green-100 to-emerald-200'
+      color: 'bg-emerald-600',
+      bgColor: 'bg-emerald-200'
     }
   ];
 
@@ -42,7 +42,7 @@ const HowItWorks: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            How Bliss Works
+            How Blissful Works
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Simple, safe, and meaningful storytelling
