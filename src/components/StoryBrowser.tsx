@@ -122,34 +122,7 @@ const StoryBrowser: React.FC<StoryBrowserProps> = ({
                 key={story.id}
                 className="bg-white rounded-2xl shadow-sm overflow-hidden hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 group"
               >
-                {/* Cover Image */}
-                <div className="relative h-48 overflow-hidden">
-                  <img
-                    src={story.coverImage}
-                    alt={story.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                  <div className="absolute top-4 left-4">
-                    <span className="bg-white/90 text-gray-900 px-3 py-1 rounded-full text-sm font-medium">
-                      {story.category}
-                    </span>
-                  </div>
-                  <div className="absolute top-4 right-4 flex space-x-2">
-                    <button
-                      onClick={() => onEditStory(story)}
-                      className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors duration-200"
-                    >
-                      <Edit className="h-4 w-4 text-gray-600" />
-                    </button>
-                    <button
-                      onClick={() => onDeleteStory(story.id)}
-                      className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors duration-200"
-                    >
-                      <Trash2 className="h-4 w-4 text-red-600" />
-                    </button>
-                  </div>
-                </div>
+               
 
                 {/* Content */}
                 <div className="p-6">

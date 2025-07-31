@@ -39,21 +39,7 @@ const FeaturedStories: React.FC<FeaturedStoriesProps> = ({ stories, onReadStory 
               className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer group"
               onClick={() => onReadStory(story)}
             >
-              {/* Cover Image */}
-              <div className="relative h-48 overflow-hidden">
-                <img
-                  src={story.coverImage}
-                  alt={story.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                <div className="absolute top-4 left-4">
-                  <span className="bg-white/90 text-gray-900 px-3 py-1 rounded-full text-sm font-medium">
-                    {story.category}
-                  </span>
-                </div>
-              </div>
-
+     
               {/* Content */}
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-purple-600 transition-colors duration-200">

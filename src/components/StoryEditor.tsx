@@ -81,7 +81,7 @@ const StoryEditor: React.FC<StoryEditorProps> = ({ story, onPublish, onCancel })
     if (!formData.content.trim()) newErrors.content = 'Content is required';
     if (!formData.excerpt.trim()) newErrors.excerpt = 'Excerpt is required';
     if (!formData.category.trim()) newErrors.category = 'Category is required';
-    if (!formData.coverImage.trim()) newErrors.coverImage = 'Cover image is required';
+
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -252,56 +252,9 @@ const StoryEditor: React.FC<StoryEditorProps> = ({ story, onPublish, onCancel })
               {errors.category && <p className="text-red-500 text-sm mt-1">{errors.category}</p>}
             </div>
 
-            {/* Cover Image */}
-            <div>
-              <label className="flex items-center space-x-2 text-sm font-medium text-gray-700 mb-2">
-                <Image className="h-4 w-4" />
-                <span>Cover Image</span>
-              </label>
+           
               
-              {/* Sample Images */}
-              <div className="mb-4">
-                <p className="text-sm text-gray-600 mb-3">Choose from our collection:</p>
-                <div className="grid grid-cols-3 md:grid-cols-6 gap-2">
-                  {sampleImages.map((imageUrl, index) => (
-                    <button
-                      key={index}
-                      type="button"
-                      onClick={() => handleInputChange('coverImage', imageUrl)}
-                      className={`aspect-square rounded-lg overflow-hidden border-2 transition-all duration-200 ${
-                        formData.coverImage === imageUrl
-                          ? 'border-purple-500'
-                          : 'border-transparent hover:border-purple-300'
-                      }`}
-                    >
-                      <img src={imageUrl} alt={`Sample ${index + 1}`} className="w-full h-full object-cover" />
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              <input
-                type="url"
-                value={formData.coverImage}
-                onChange={(e) => handleInputChange('coverImage', e.target.value)}
-                placeholder="Or paste your own image URL"
-                className={`w-full px-4 py-3 border rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-200 ${
-                  errors.coverImage ? 'border-red-500' : 'border-gray-300'
-                }`}
-              />
-              {errors.coverImage && <p className="text-red-500 text-sm mt-1">{errors.coverImage}</p>}
-
-              {/* Image Preview */}
-              {formData.coverImage && (
-                <div className="mt-3">
-                  <img
-                    src={formData.coverImage}
-                    alt="Cover preview"
-                    className="w-full h-48 object-cover rounded-xl"
-                  />
-                </div>
-              )}
-            </div>
+             
 
             {/* Excerpt */}
             <div>
@@ -407,8 +360,8 @@ const StoryEditor: React.FC<StoryEditorProps> = ({ story, onPublish, onCancel })
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div> </div>
+    
   );
 };
 
